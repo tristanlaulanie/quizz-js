@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZZ</title>
+  </head>
+  <body>
+    <main>
+      <h1><strong>Quizz</strong> culture générale. ☑️</h1>
+
+      <form action="" >
+        <section id="question-empereur" class="section-question">
+          <p>Qui est sacré empereur de France le 2 décembre 1804 ?</p>
+          <div>
+            <input type="radio" id="clovis" value="Clovis" name="sacre_empereur"/>
+            <label for="Clovis">Clovis</label>
+          </div>
+
+          <div>
+            <input type="radio" id="lincoln" value="lincoln" name="sacre_empereur" />
+            <label for="Abraham Lincoln">Abraham Lincoln</label>
+          </div>
+
+          <div>
+            <input type="radio" id="napoleon" value="napoleon" name="sacre_empereur"/>
+            <label for="Napoléon Bonaparte">Napoléon Bonaparte</label>
+          </div>
+        </section>
+
+        <section id="question-independanceday" class="section-question">
+            <p>Quand la déclaration d'indépendance des Etats-Unis a-telle été votée ?</p>
+            <div>
+                <input type="radio" id="4juillet76" value="4juillet76" name="declaration_independance" />
+                <label for="">4 juillet 1776</label>
+            </div>
+
+            <div>
+                <input type="radio" id="18avril56" value="18avril56" name="declaration_independance" />
+                <label for="">18 avril 1856</label>
+            </div>
+
+            <div>
+                <input type="radio" id="30juin25" value="30juin25" name="declaration_independance"/>
+                <label for="">30 juin 1925</label>
+            </div>
+        </section>
+
+        <section id="question-chute-empire" class="section-question">
+            <p>Quand a eu lieu la chute de l'empire romain d'occident ?</p>
+
+            <div>
+                <input type="radio" id="15apJC" value="15apJC" name="chute_empire"/>
+                <label for="">15 après J.-C.</label>
+            </div>
+
+            <div>
+                <input type="radio" id="476apJC" value="476apJC" name="chute_empire" />
+                <label for="">476 après J.-C.</label>
+            </div>
+
+            <div>
+                <input type="radio" id="740avJC" value="740avJC" name="chute_empire"/>
+                <label for="">-740 avant J.-C.</label>
+            </div>
+        </section>
+
+        <section id="question-capitale" class="section-question">
+            <p>Quelle est la capitale de la Slovénie ?</p>
+            <div>
+                <input type="radio" id="ljubljana" value="Ljubljana" name="capitale_slovénie"/>
+                <label for="">Ljubljana</label>
+            </div>
+
+            <div>
+              <input type="radio" id="belgrade" value="Belgrade" name="capitale_slovénie" />
+              <label for="">Belgrade</label>
+            </div>
+
+            <div>
+              <input type="radio" id="bratislava" value="Bratislava" name="capitale_slovénie" />
+              <label for="">Bratislava</label>
+            </div>
+        </section>
+
+        <section id="question-irlande" class="section-question">
+          <p>Combien d'habitants comptait l'Irlande en 2020 ?</p>
+          <div>
+            <input type="radio" id="1million3" value="1million3" name="habitants_irlande"/>
+            <label for="">1,365 Millions.</label>
+          </div>
+
+          <div>
+            <input type="radio" id="21millions" value="21millions" name="habitants_irlande"/>
+            <label for="">21 Millions.</label>
+          </div>
+
+          <div>
+            <input type="radio" id="4millions9" value="4millions9" name="habitants_irlande" />
+            <label for="">4,9 Millions.</label>
+          </div>
+        </section>
+
+        <button id="button-submit" type="submit">VALIDER ✔️</button>
+
+        <section class="section-instruction">
+          <p id="instruction-text">
+            Cliquez sur 
+            <strong>valider</strong> 
+            pour voir votre 
+            <strong>résultat</strong>.
+          </p>
+        </section>
+
+        <section id="score-display">Votre score est de :</section>
+      </form>
+    </main>
+    <script src="assets\app.js"></script>
+  </body>
+</html>
