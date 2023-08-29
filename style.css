@@ -1,3 +1,8 @@
+@font-face {
+    font-family: New Boba;
+    src: url(assets/NewBoba-7BJ9R.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: New Boba;
     background-color: #cce7edb6;
 }
 
@@ -33,9 +38,9 @@ form {
     flex-direction: column;
     align-self: start;
     background-color: rgb(247, 243, 239);
-    width: 43vw;
+    width: 45vw;
     padding: 1em 0 1.5em 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-radius: 8px;
     box-shadow: 8px 19px 15px -2px rgba(0,0,0,0.1);
 }
